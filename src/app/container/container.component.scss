@@ -1,5 +1,12 @@
 .container {
-  outline: 1px solid white;
   width: 1200px;
   margin: 0 auto;
+}
+
+
+.line {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid var(--line-color);
+  margin: 0;
 }
