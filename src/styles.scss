@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+@import "./vendor/normalize.css";
+:root {
+  --background-color-main-mode-dark: rgba(0, 0, 0, 1);
+  --main-color-text-mode-dark: #FFFFFF;
+}
+
+.app {
+  display: block;
+  background-color: var(--background-color-main-mode-dark);
+  color: var(--main-color-text-mode-dark);
+}
