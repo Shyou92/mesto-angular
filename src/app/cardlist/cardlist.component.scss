@@ -1,5 +1,6 @@
 .cardlist-section {
   padding-top: 50px;
+  margin-bottom: 50px;
 }
 
 .cardlist {
@@ -8,8 +9,5 @@
   justify-content: center;
   grid-template-columns: repeat(3, 282px);
   gap: 20px;
-
-  &__item {
-
-  }
+  padding: 0;
 }
