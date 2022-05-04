@@ -1,0 +1,15 @@
+.cardlist-section {
+  padding-top: 50px;
+}
+
+.cardlist {
+  list-style-type: none;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 282px);
+  gap: 20px;
+
+  &__item {
+
+  }
+}

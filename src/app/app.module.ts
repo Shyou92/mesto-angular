@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { ContainerComponent } from './container/container.component';
 import { ProfileComponent } from './profile/profile.component';
+import { CardlistComponent } from './cardlist/cardlist.component';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     ContainerComponent,
-    ProfileComponent
+    ProfileComponent,
+    CardlistComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
