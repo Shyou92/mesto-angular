@@ -1,14 +1,6 @@
 @import "./vendor/normalize.css";
 @import "./vendor/fonts/Inter-Web/inter.css";
-
-:root {
-  /*colors*/
-  --background-color-main-mode-dark: rgba(0, 0, 0, 1);
-  --main-color-text-mode-dark: #FFFFFF;
-  --line-color: #545454;
-  /*font-styles*/
-  --main-font: "Inter", Arial sans-serif;
-}
+@import "./assets/variables/variables.css";
 
 .app {
   display: block;

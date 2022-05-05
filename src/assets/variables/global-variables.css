@@ -1,0 +1,47 @@
+:root {
+
+  /*colors*/
+
+  --background-color-main-mode-dark: rgba(0, 0, 0, 1);
+  --main-color-text-mode-dark: #FFFFFF;
+  --line-color: #545454;
+
+  /*font-styles*/
+
+  --main-font: "Inter", Arial sans-serif;
+
+  /*container-width*/
+
+  --pc-container-width: 1200px;
+  --laptop-container-width: 768px;
+  --tablet-container-width: 425px;
+  --mobile-container-width: 282px;
+
+
+  /* --container-width: var(--pc-container-width);   */
+
+}
+
+@media screen and (min-width: 1440px) {
+  :root {
+    --container-width: var(--pc-container-width);
+  }
+}
+
+@media screen and (max-width: 1439px){
+  :root {
+    --container-width: var(--laptop-container-width);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  :root {
+    --container-width: var(--tablet-container-width);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  :root {
+    --container-width: var(--mobile-container-width);
+  }
+}
