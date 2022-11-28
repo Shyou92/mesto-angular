@@ -1,0 +1,7 @@
+@import "../../../styles/variables";
+
+.button {
+  width: var(--button-width);
+  height: var(--button-height);
+  font-size: var(--button-font-size);
+}

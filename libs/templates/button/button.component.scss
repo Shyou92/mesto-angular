@@ -1,0 +1,16 @@
+:host {
+  width: 75px;
+  height: 75px;
+
+  &.large {
+    width: var(--button-width, 100px);
+    height: var(--button-height, 100px);
+    font-size: var(--button-font-size, 20px);
+  }
+
+  &.small {
+    width: var(--button-width, 25px);
+    height: var(--button-height, 25px);
+    font-size: var(--button-font-size, 12px);
+  }
+}
