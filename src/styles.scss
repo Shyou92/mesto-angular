@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+@import url(normalize.css);
+@import url(../src/assets/fonts/Inter-Web/inter.css);
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  font-family: "Inter", Arial, sans-serif;
+}
