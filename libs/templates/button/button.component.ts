@@ -9,7 +9,8 @@ import { buttonSelector } from './model';
 })
 export class ButtonComponent {
 
-  @Input() buttonSize = ''
+  @Input() buttonSize = '';
+  @Input() text = '';
 
   @HostBinding('class.large') get getClassSizeLarge() {
     return this.buttonSize === 'large';
