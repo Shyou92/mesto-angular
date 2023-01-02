@@ -1,14 +1,12 @@
-import { SignDirective } from 'src/app/directives/sign.directive';
+import { ButtonDirective } from 'src/app/directives/button/button.directive';
 
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 
-import { ButtonComponent } from '../button/button.component';
-
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [CommonModule, ButtonComponent, SignDirective],
+  imports: [CommonModule, ButtonDirective],
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss'],
 })
