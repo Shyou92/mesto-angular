@@ -1,11 +1,18 @@
 import { Directive, ElementRef } from '@angular/core';
 
 import {
-  buttonDirectives, buttonNoOutlinedSelector, buttonOutlinedSelector, buttonPrimarySelector
+  buttonDirectives, buttonNoOutlinedSelector, buttonOutlinedSelector, buttonPrimarySelector,
+  buttonSelector
 } from './model';
 
 @Directive({
-  selector: `button[${buttonPrimarySelector}, button[${buttonOutlinedSelector}, button[${buttonNoOutlinedSelector}], a[${buttonPrimarySelector}], a[${buttonOutlinedSelector}], a[${buttonNoOutlinedSelector}]]`,
+  selector: `button[${buttonSelector}],
+  button[${buttonPrimarySelector},
+  button[${buttonOutlinedSelector},
+  button[${buttonNoOutlinedSelector}],
+  a[${buttonPrimarySelector}],
+  a[${buttonOutlinedSelector}],
+  a[${buttonNoOutlinedSelector}]`,
   standalone: true,
 })
 export class ButtonDirective {
