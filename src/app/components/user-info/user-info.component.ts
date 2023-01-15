@@ -4,10 +4,10 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-header',
+  selector: 'app-user-info',
   standalone: true,
   imports: [CommonModule, ButtonDirective],
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.scss'],
+  templateUrl: './user-info.component.html',
+  styleUrls: ['./user-info.component.scss'],
 })
-export class HeaderComponent {}
+export class UserInfoComponent {}

@@ -1,6 +1,6 @@
 @use "./app/directives/styles/styles.scss";
-@import url(normalize.css);
-@import url(../src/assets/fonts/Inter-Web/inter.css);
+@import "./normalize.css";
+@import "../src/assets/fonts/Inter-Web/inter.css";
 
 body {
   margin: 0;

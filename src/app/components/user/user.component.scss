@@ -1,0 +1,29 @@
+:host {
+  display: flex;
+  gap: 30px;
+
+  .user-avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    align-self: center;
+  }
+
+  .add-card {
+    background-image: url("../../../assets/images/Cross.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+  }
+
+  @media screen and (max-width: 510px) {
+    flex-direction: column;
+    align-content: center;
+
+    .add-card {
+      margin-left: 0;
+      align-self: center;
+      width: 100%;
+    }
+  }
+}
