@@ -1,4 +1,6 @@
 :host {
+  max-width: 880px;
+  margin: 0 auto;
   display: flex;
   gap: 30px;
 
@@ -16,9 +18,20 @@
     margin-left: auto;
   }
 
-  @media screen and (max-width: 510px) {
+  @media screen and (max-width: 1024px) {
+    margin: 0 19px;
+  }
+
+  @media screen and (max-width: 769px) {
+    .add-card {
+      align-self: center;
+    }
+  }
+
+  @media screen and (max-width: 540px) {
     flex-direction: column;
     align-content: center;
+    padding: 40px 0;
 
     .add-card {
       margin-left: 0;

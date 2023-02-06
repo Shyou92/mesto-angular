@@ -1,4 +1,5 @@
 :host {
+  max-width: 880px;
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid rgb(84, 84, 84, 0.7);
@@ -8,6 +9,13 @@
 
 .logo-link {
   cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+  :host {
+    margin-inline-start: 19px;
+    margin-inline-end: 19px;
+  }
 }
 
 @media screen and (max-width: 768px) {

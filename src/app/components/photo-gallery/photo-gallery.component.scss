@@ -1,0 +1,74 @@
+:host {
+  max-width: 880px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(282px, 1fr));
+  gap: 17px;
+  margin: 0 auto;
+  padding: 50px 0;
+
+  .card {
+    width: 282px;
+
+    &-image {
+      width: 100%;
+      height: 282px;
+      object-fit: contain;
+      border-radius: 10px 10px 0 0;
+    }
+
+    &-info {
+      background-color: #fff;
+      display: flex;
+      justify-content: space-between;
+      padding: 25px 20px;
+      border-radius: 0 0 10px 10px;
+    }
+
+    &-text {
+      margin: 0;
+      width: 220px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+      line-height: 29px;
+      font-size: 24px;
+      font-weight: 900;
+    }
+
+    &-like {
+      background-image: url("../../../assets/images/Like.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-color: transparent;
+      border: none;
+      outline: none;
+      width: 22px;
+      height: 19px;
+      cursor: pointer;
+      align-self: center;
+
+      &-active {
+        background-image: url("../../../assets/images/Like_active.svg");
+        background-position: center;
+      }
+    }
+  }
+
+  @media screen and (max-width: 1281px) {
+    grid-template-columns: repeat(3, 282px);
+    justify-content: center;
+  }
+
+  @media screen and (max-width: 1024px) {
+    grid-template-columns: repeat(2, 282px);
+    justify-content: center;
+  }
+
+  @media screen and (max-width: 598px) {
+    grid-template-columns: 282px;
+  }
+
+  @media screen and (max-width: 540px) {
+    padding: 0;
+  }
+}
