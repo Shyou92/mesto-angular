@@ -1,0 +1,24 @@
+:host {
+  color: #545454;
+
+  .footer_text {
+    max-width: 880px;
+    margin: 0 auto 60px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .footer_text {
+      max-width: 582px;
+    }
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 598px) {
+    .footer_text {
+      max-width: 282px;
+      margin-bottom: 30px;
+    }
+  }
+}
