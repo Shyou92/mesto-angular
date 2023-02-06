@@ -1,0 +1,7 @@
+<app-card class="card" *ngFor="let photo of list">
+  <img src="{{ photo.image }}" alt="{{ photo.alt }}" class="card-image" />
+  <div class="card-info">
+    <p class="card-text">{{ photo.name }}</p>
+    <button class="card-like"></button>
+  </div>
+</app-card>
